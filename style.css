@@ -130,6 +130,27 @@
   background-color: #f8f9fa;
   padding: 40px 0;
 }
+
+.footer .social-icon {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  border-radius: 50%;
+  background-color: #009B9F; /* Anudip teal */
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  transition: all 0.3s ease;
+  margin-right: 5px;
+}
+.footer .social-icon:hover {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+}
+
+
 .footer h6 {
   font-weight: bold;
 }
@@ -148,5 +169,6 @@
 .btn-donate:hover {
   background-color: #007B7F;
 }
+
 
 
